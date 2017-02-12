@@ -1,0 +1,290 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>dgp_129</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!--[if lt IE 10]>
+    <script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+    document.createElement('figure');
+    document.createElement('figcaption');
+    </script>
+    <![endif]-->
+
+
+
+
+</head>
+
+<body>
+
+<div class="pop-up">
+    <div class="overlay"></div>
+    <div class="pop-up-inner">
+        <img class="close-pop-up" src="img/close_pop_up.png" alt="#">
+        <span class="pop-up-title">Вызов замерщика</span>
+        <span>Специалист может приехать как в рабочее время так и в вечерние часы.</span>
+        <form class="call-form" id="call-form" action="#">
+            <input type="text" name="callUsername" minlength="4" placeholder="Имя Фамилия*" required>
+            <select name="callFormDoorType" id="call-form-door-type">
+                <option value="1">Входная дверь g hg hg hgh gh g hg hgh gh gh fgdrd gdrgrthdhfgh dh d dfh  </option>
+                <option value="2">Межкомнаятная дверь</option>
+                <option value="3">Специальная дверь</option>
+                <option value="4">Входная дверь</option>
+                <option value="5">Межкомнаятная дверь</option>
+                <option value="6">Специальная дверь</option>
+            </select>
+            <input type="text" name="callAddress" minlength="4" placeholder="Адрес*" required>
+            <input type="text" name="callUserphone" class="input-phone"  placeholder="+7(___)___-__-__*" required>
+            <span class="required-description">Поля отмеченные* обязательны для заполнения</span>
+            <input type="submit" value="Отправить" class="btn red-btn">
+        </form>
+    </div>
+</div>
+
+<header class = 'header wmw'>
+    <div class="upper-head">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <nav class="top-nav">
+                        <ul>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Партнерам</a></li>
+                            <li><a href="#">Кредит и рассрочка</a></li>
+                            <li><a href="#">Адреса магазинов</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-4">
+                    <div class="cart-container">
+                        <img src="img/cart_icon.png" alt="#"><a href="#">Корзина пуста</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-head">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="header-contacts">
+                        <span class="contact-phone">
+                            <img src="img/phone_icon.png" alt="#"> <span>8 (3842) 333-755</span>
+                        </span>
+                        <span class="work-time">с 09-00 до 18-00 без выходных</span>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="logo-container">
+                        <a href="#"><img src="img/logo.png" alt="#"></a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="measurement-and-search">
+                        <a class="measurement show-pop-up" href="#"><img src="img/measurement_icon.png" alt="#"><span>Бесплатный замер</span></a>
+                        <a class="search" href="#"><img src="img/search_icon.png" alt="#"></a>
+                        <form class="header-search-form" action="#">
+                            <input type="text" placeholder="Поиск по каталогу">
+                            <input type="submit" value="" alt="#">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <nav class="categories-nav">
+                <ul>
+                    <li><a href="#"><span>Входные двери</span></a></li>
+                    <li><a href="#"><span>Межкомнатные двери</span></a></li>
+                    <li><a href="#"><span>Фурнитура</span></a></li>
+                    <li><a href="#"><span>Арки</span></a></li>
+                    <li><a href="#"><span>Специальные двери</span></a></li>
+                    <li><a href="#"><img src="img/actions_icon.png" alt="#"><span>Акции</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class = 'main-block wmw'>
+    <div class="container">
+        <nav class="breadcrumbs">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Корзина</a></li>
+                <li>Оформление заказа</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="drawing-up">
+            <h1>Оформление заказа</h1>
+            <form class="drawing-up-form" id="drawing-up-form" action="#">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <fieldset class="client-info-fieldset">
+                            <input type="text" name="drawUpUsername" minlength="4" placeholder="Имя Фамилия*" required>
+                            <input type="text" name="drawUpMail" minlength="4" placeholder="Электронная почта*" required>
+                            <input type="text" name="drawUpUserphone" class="input-phone"  placeholder="+7 (___)___-__-__*" required>
+                            <span class="required-note">Поля отмеченные * обязательны для заполнения</span>
+                        </fieldset>
+                        <fieldset class="delivery-fieldset">
+                            <span class="fieldset-title">Доставка:</span>
+                            <span class="form-group"><input type="radio" checked name="delivery" id="delivery1" data-target-ta="#ta1"><label for="delivery1">Самовывоз</label></span>
+                            <div class="ta opened" id="ta1">
+                                <span class="pickup">Офис - склад, г. Кемерово, ул.Базовая, 22<a href="#" target="_blank">Посмотреть на карте <img src="img/blank.png" alt="#"></a></span>
+                            </div>
+                            <span class="form-group"><input type="radio" name="delivery" id="delivery2" data-target-ta="#ta2"><label for="delivery2">Доставка по адресу (в пределах г. Кемерово)</label></span>
+                            <div class="ta wcr" id="ta2">
+                                <p class="i2">
+                                    <input type="text" class="cr" name="drawUpCity" placeholder="Населенный пункт*">
+                                    <input type="text" class="cr" name="drawUpStreet" placeholder="Улица*">
+                                </p>
+                                <p class="i4">
+                                    <input type="text" class="cr" name="drawUpHomeNumber" placeholder="Дом/корпус*">
+                                    <input type="text" placeholder="Квартира">
+                                    <input type="text" placeholder="Этаж">
+                                    <input type="text" placeholder="Подъезд">
+                                </p>
+                                <span class="required-note">Поля отмеченные * обязательны для заполнения</span>
+                                <span class="delivery-note">Стоимость доставки до подъезда в пределах г.Кемерово — 1000 руб. <br> Точную сумму вам сообщит менеджер.</span>
+                            </div>
+                        </fieldset>
+                        <fieldset class="payment-fieldset">
+                            <span class="fieldset-title">Оплата:</span>
+                            <p><input type="radio" id="drawing-up-payment-1" name="drawingUpPaymentRadio"><label for="drawing-up-payment-1">Оплата наличными при получении</label></p>
+                            <p><input type="radio" id="drawing-up-payment-2" name="drawingUpPaymentRadio"><label for="drawing-up-payment-2">Оплата картой (возможна тоько в магазине)</label></p>
+                            <p><input type="radio" id="drawing-up-payment-3" name="drawingUpPaymentRadio"><label for="drawing-up-payment-3">Оформление в рассрочку (подробности у менеджеров или по<a href="#">ссылке</a>)</label></p>
+                        </fieldset>
+                        <fieldset class="installation-fieldset">
+                            <input type="checkbox" id="installation-needed-check"><label for="installation-needed-check">Нужна установка</label>
+                            <span class="installation-needed-note">Стоимость стандартной установки одной двери — от 1500 руб. <br> Точную сумму вам сообщит мастер при установке.</span>
+                        </fieldset>
+                        <fieldset class="comment-fieldset">
+                            <a class="dashed-underline show-textarea" href="#">Добавить комментарий к заказу</a>
+                            <div class="textarea-wrapper">
+                                <textarea name="comment" id="comment"></textarea>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-xs-6 order-list-column">
+                        <div class="order-list">
+                            <span class="order-list-title">Ваш заказ</span>
+                            <div class="order-list-wrapper">
+                                <table class="order-list-table">
+                                    <tr>    <td class="order-list-item-name"><a href="#">Межкомнатная ламинированная дверь Гост итальянский орех</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Входная дверь GROFF P2-201 П-28 Темная Вишня</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Межкомнатная ламинированная дверь Гост итальянский орех</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Межкомнатная ламинированная дверь Гост итальянский орех</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Входная дверь GROFF P2-201 П-28 Темная Вишня</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Входная дверь GROFF P2-201 П-28 Темная Вишня</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Межкомнатная ламинированная дверь Гост итальянский орех</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Входная дверь GROFF P2-201 П-28 Темная Вишнях</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Межкомнатная ламинированная дверь Гост итальянский орех</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">МВходная дверь GROFF P2-201 П-28 Темная Вишня</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Межкомнатная ламинированная дверь Гост итальянский орех</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Межкомнатная ламинированная дверь Гост итальянский орех</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Входная дверь GROFF P2-201 П-28 Темная Вишня</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Межкомнатная ламинированная дверь Гост итальянский орех</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Входная дверь GROFF P2-201 П-28 Темная Вишня</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                    <tr>    <td class="order-list-item-name"><a href="#">Входная дверь GROFF P2-201 П-28 Темная Вишня</a></td>   <td class="order-list-item-count">1 шт</td>   <td class="order-list-item-cost">14 400 &#8381</td>   </tr>
+                                </table>
+                            </div>
+                            <span class="total">Общая стоимость без учета доставки: <span class="total-sum">28 800  &#8381</span></span>
+                        </div>
+                    </div>
+                </div>
+                <fieldset class="submit-fieldset">
+                    <input type="submit" value="Завершить оформление" class="btn red-btn">
+                    <span class="submit-note">Нажатием кнопки «Завершить оформление» я даю свое согласие на обработку <br> персональных данных в соответствии с указанными здесь условиями.</span>
+                    <a class="to-cart" href="#">&#8592; В корзину</a>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class = 'footer wmw'>
+    <div class="container">
+        <nav class="categories-nav">
+            <ul>
+                <li><a href="#"><span>Входные двери</span></a></li>
+                <li><a href="#"><span>Межкомнатные двери</span></a></li>
+                <li><a href="#"><span>Фурнитура</span></a></li>
+                <li><a href="#"><span>Арки</span></a></li>
+                <li><a href="#"><span>Специальные двери</span></a></li>
+                <li><a href="#"><img src="img/actions_icon.png" alt="#"><span>Акции</span></a></li>
+            </ul>
+        </nav>
+        <div class="main-footer">
+            <div class="row">
+                <div class="footer-left">
+                    <div class="footer-contacts">
+                        <span class="contact-phone">
+                            <img src="img/phone_icon.png" alt="#"> <span>8 (3842) 333-755</span>
+                        </span>
+                        <span class="work-time">с 09-00 до 18-00 без выходных</span>
+                        <nav class="contacts-nav">
+                            <ul>
+                                <li><a href="#">Контактная информация</a></li>
+                                <li><a href="#">Адреса магазинов</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <form class="footer-search-form" action="#">
+                        <input type="image" src="img/search_icon.png" alt="#">
+                        <input type="text" placeholder="Поиск по каталогу">
+                    </form>
+                    <span class="copy-right">Материалы сайта защищены законом РФ об авторских и смежных правах. Копирование запрещено. <a href="#">Сайт не является договором оферты.</a></span>
+                </div>
+                <div class="footer-right">
+                    <div class="measurement-and-search">
+                        <a class="measurement show-pop-up" href="#"><img src="img/measurement_icon.png" alt="#"><span>Бесплатный замер</span></a>
+                    </div>
+                    <div class="copy-right">
+                        <span>© 2012—2016 «Дверицентр»</span>
+                        <a href="#">sibdoors@yandex.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script>
+<script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousellite.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/phonevalidate.js"></script>
+<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+</script>
+
+
+</body>
+
+</html>
