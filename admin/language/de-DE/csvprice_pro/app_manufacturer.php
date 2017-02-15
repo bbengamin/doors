@@ -8,7 +8,6 @@ $_['heading_title_normal'] = 'CSV Price Pro import/export 4';
 
 // Text global
 $_['text_module'] = 'Modules';
-$_['text_extension'] = 'Erweiterung';
 $_['text_default'] = ' <b>(Vorgabe)</b>';
 $_['text_yes'] = 'Ja';
 $_['text_no'] = 'Nein';

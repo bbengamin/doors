@@ -5,7 +5,6 @@ $_['heading_title_normal'] = 'CSV Price Pro import/export 3';
 
 // Text global
 $_['text_module'] = 'Module';
-$_['text_extension'] = 'Erweiterung';
 $_['text_default'] = ' <b>(Vorgabe)</b>';
 $_['text_yes'] = 'Ja';
 $_['text_no'] = 'Nein';

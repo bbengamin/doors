@@ -764,7 +764,7 @@
 									<select class="g-1" name="csv_import[delimiter_category]">
 										<option value="|"<?php if(isset($csv_import['delimiter_category']) && $csv_import['delimiter_category'] == '|'){echo ' selected="selected"';}?>> | </option>
 										<option value="/"<?php if(isset($csv_import['delimiter_category']) && $csv_import['delimiter_category'] == '/'){echo ' selected="selected"';}?>> / </option>
-										<option value=">"<?php if(isset($csv_import['delimiter_category']) && $csv_import['delimiter_category'] == '>'){echo ' selected="selected"';}?>> &gt; </option>
+										<option value=">"<?php if(isset($csv_export['delimiter_category']) && $csv_export['delimiter_category'] == '>'){echo ' selected="selected"';}?>> &gt; </option>
 										<option value=","<?php if(isset($csv_import['delimiter_category']) && $csv_import['delimiter_category'] == ','){echo ' selected="selected"';}?>> , </option>
 									</select>
 								</div>

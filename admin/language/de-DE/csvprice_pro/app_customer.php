@@ -5,7 +5,6 @@ $_['heading_title_normal'] = 'CSV Price Pro import/export 4';
 
 // Text
 $_['text_module'] = 'Modules';
-$_['text_extension'] = 'Erweiterung';
 $_['text_enabled'] = 'Aktiv';
 $_['text_disabled'] = 'Inaktiv';
 $_['text_select_all'] = 'Alle auswählen';

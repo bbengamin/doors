@@ -5,7 +5,6 @@ $_['heading_title_normal'] = 'CSV Price Pro import/export 4';
 
 // Text
 $_['text_module'] = 'Module';
-$_['text_extension'] = 'Erweiterung';
 $_['text_license_key'] = 'Lizenz:';
 $_['text_app_name'] = 'Modul:';
 $_['text_app_version'] = 'Version:';

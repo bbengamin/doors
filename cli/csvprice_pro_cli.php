@@ -1,8 +1,8 @@
 <?php
 
 /*
- * CSV Price import/export 4 CLI - v2.0.2 (29.09.2016)
- * Require OpenCart 2.0/2.3
+ * CSV Price import/export 4 CLI - v2.0.1 (06.10.2015)
+ * Require OpenCart 2.0/2.1
  *
  * Email: support@costaslabs.com
  * Website: http://www.costaslabs.com/
@@ -23,7 +23,7 @@ if ( file_exists(OPENCART_ADMIN_DIR . 'config.php') ) {
 }
 
 // Check VERSION
-$data = file_get_contents(OPENCART_ADMIN_DIR . 'index.php');
+$data = file_get_contents(OPENCART_ROOT_ADMIN_DIR . 'index.php');
 preg_match("/define\('VERSION', '([0-9]*\.[0-9]*)/i", $data, $matches);
 if ( isset($matches[1]) ) {
 	$version = $matches[1];
@@ -58,10 +58,7 @@ foreach ( $query->rows as $setting ) {
 		$config->set($setting['key'], $setting['value']);
 	} else {
 		switch ($version) {
-			case '2.1':
-			case '2.2':
-			case '2.3':
-			case '2.4':
+			case '2.1' :
 				$config->set($setting['key'], json_decode($setting['value'], true));
 				break;
 			default :

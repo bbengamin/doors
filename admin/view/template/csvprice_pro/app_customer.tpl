@@ -131,7 +131,7 @@
 									<td><span><?php echo $field['uid']; ?></span></td>
 								</tr>
 								<?php } ?>
-								<?php if ($custom_fields) {?>
+								<? if ($custom_fields) {?>
 								<?php foreach( $custom_fields as $custom_field ) { ?>
 								<tr id="row<?php echo $custom_field['uid']; ?>">
 									<td>
